@@ -3,6 +3,6 @@
     config: "{{ lookup('file', 'templates/s-pipeline.xml') }}"
     name: test
     password: 114130a90b6d365a107d1c7eb3fb4a7659
-    url: http://localhost:8080
+    url: http://172.31.12.47:8080
     user: admin
 
