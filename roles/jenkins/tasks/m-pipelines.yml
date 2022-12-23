@@ -7,7 +7,7 @@
     src: m-pipeline.xml
     dest: /tmp/m-pipeline.xml
   vars:
-    random_id: "{{random.stdout}}
+    random_id: "{{random.stdout}}"
 
 - name: Create a jenkins job using basic authentication
   community.general.jenkins_job:
