@@ -19,6 +19,7 @@
     - user
     - shipping
     - payment
+    - init-container
 
 - name: Include Single Branch Pipeline tasks
   ansible.builtin.include_tasks: s-pipelines.yml
